@@ -10,5 +10,8 @@ print(student[0])
 student=("mahe",[22,45,90],['math','science','english'])
 print(student[0])
 print(student[2][1])
+#tuple sample
+info=("mahe",20,'engineer')
+print(info[0])
 
 
