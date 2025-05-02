@@ -70,5 +70,14 @@ location={
     (40.7128,-73.070):'new york',
     (34.0522,-119.2347):'melbourne'}
 print(location[(40.7128,-73.070)])
+#sets
+a={1,2}
+b={1,2,3,4,5}
+print(a.issubset(b))
+print(b.issubset(a))
+print(a<=b)
+print(b<b)
+print(a>=b)
+print(b>a)
 
 
