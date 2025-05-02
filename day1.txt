@@ -54,5 +54,21 @@ print(person.keys())
 print(person.values())
 print(person.items())
 print(person.get("age"))
+#nested dict
+info={
+    'mahe':{"salary":120000,"perks":30000},
+    'mark':{"salary":180000,"perks":50000},
+}
+print(info['mark']['perks'])
+#dict with tuple keys
+location={
+    (40.7128,-73.070):'new york',
+    (34.0522,-119.2347):'melbourne'}
+print(location[(40.7128,-73.070)])
+#dict with tuple keys
+location={
+    (40.7128,-73.070):'new york',
+    (34.0522,-119.2347):'melbourne'}
+print(location[(40.7128,-73.070)])
 
 
