@@ -13,5 +13,23 @@ print(student[2][1])
 #tuple sample
 info=("mahe",20,'engineer')
 print(info[0])
+#tuple sample
+info=("mahe",20,'engineer')
+print(info[0])
+print(info[-2])#dict with tuple key
+location={
+    (40.7128,-73.070):'new york',
+    (34.0522,-119.2347):'melbourne'}
+print(location[(40.7128,-73.070)])
+#list with in a tuple 
+student=("mahe",[22,45,90],['math','science','english'])
+print(student[0])
+#list with in a tuple 
+student=("mahe",[22,45,90],['math','science','english'])
+print(student[0])
+print(student[2][1])
+print(len(info))
+print(info*2)
+print(info+('12345',4))
 
 
