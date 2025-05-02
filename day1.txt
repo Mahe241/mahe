@@ -31,5 +31,28 @@ print(student[2][1])
 print(len(info))
 print(info*2)
 print(info+('12345',4))
+#nested tuple
+nest=((1,2),(3,4),(5,6))
+print(nest[0])
+#nested tuple
+nest=((1,2),('a',7),(5,6))
+print(nest[1])
+print(nest[1][0])
+#dictionary operations
+person={'name':'mahe','age':20,'city':'mumbai'}
+print(person)
+print("accessing and modify the person age:")
+person["age"]=21
+print(person)
+print("adding and removing items")
+person['email']='mahemahe9423@gmail.com'
+print(person)
+del person['city']
+print(person)
+print("all keys & values")
+print(person.keys())
+print(person.values())
+print(person.items())
+print(person.get("age"))
 
 
